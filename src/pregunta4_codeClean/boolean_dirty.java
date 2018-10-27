@@ -4,12 +4,15 @@ public class boolean_dirty {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double nota_minima = 10.5;
-		double nota_alumno = 10;
-		
-		if (nota_alumno>nota_minima){
-			System.out.println("Alumno aprobado");
-		}		
-	}
-	
+		boolean esAprobado;
+		double nota = 10.8;
+		if(nota>14) {
+			esAprobado = true;
+		} else {
+			esAprobado = false;
+		}
+		if(esAprobado== true) {
+			System.out.print("Esta aprobado");
+		}
+	}	
 }
